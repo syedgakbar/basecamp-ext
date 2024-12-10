@@ -1,0 +1,5 @@
+/*  Dynamic Language Tools, version 0.6.2
+ *  (c) 2009-2010 Syed Ghulam akbar <akbar@jintech.com>
+ *
+ *  This JavaScript Library is freely distributable under the terms of an MIT-style license.
+ /*--------------------------------------------------------------------------*/

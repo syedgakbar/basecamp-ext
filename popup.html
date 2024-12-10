@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Strict//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+	<title>Basecamp Extension</title>
+	<link rel="stylesheet" type="text/css" href="css/option_popup.css"/>
+	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="js/basecamp-extension.js"></script>
+  </head>
+  <body>
+	<div id="container">
+		<div id="header">
+			<div id="ext_enabled">Enabled <input type="checkbox" checked="true" value="1" id="chExtEnabled"></div>
+			<img src="icon_32.png"> <h2>Basecamp Extension</h2>
+		</div>
+			<form name="frmOptions">
+			<div id="options_wrapper">
+				<div class="section_header">  
+					<img src="images/time-entry.png"> Time Entry
+				</div>
+				<div id="divTimeEntryOptions" class="section_content">
+				    <div class="extension_preferences" title="Default date to use when adding the time entries. If you want to keep using the default date part, select '--' from the corresponding dropdown. ">
+						Default Date: 
+						<select style="margin-left:12px" id="drpDefaultDateMonth" name="drpDefaultDateMonth" class="BceOption">
+							<option value="--">--</option>
+							<option value="1">Jan</option>
+							<option value="2">Feb</option>
+							<option value="3">Mar</option>
+							<option value="4">Apr</option>
+							<option value="5">May</option>
+							<option value="6">Jun</option>
+							<option value="7">Jul</option>
+							<option value="8">Aug</option>
+							<option value="9">Sep</option>
+							<option value="10">Oct</option>
+							<option value="11">Nov</option>
+							<option value="12">Dec</option>
+						</select>
+						<select id="drpDefaultDateDay" name="drpDefaultDateDay" class="BceOption">
+							<option value="--">--</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+							<option value="13">13</option>
+							<option value="14">14</option>
+							<option value="15">15</option>
+							<option value="16">16</option>
+							<option value="17">17</option>
+							<option value="18">18</option>
+							<option value="19">19</option>
+							<option value="20">20</option>
+							<option value="21">21</option>
+							<option value="22">22</option>
+							<option value="23">23</option>
+							<option value="24">24</option>
+							<option value="25">25</option>
+							<option value="26">26</option>
+							<option value="27">27</option>
+							<option value="28">28</option>
+							<option value="29">29</option>
+							<option value="30">30</option>
+							<option value="31">31</option>
+						</select>
+						<select id="drpDefaultDateYear" name="drpDefaultDateYear" class="BceOption">
+							<option value="--">--</option>
+						</select>
+					</div>
+					<div class="extension_preferences" title="Default person to use when adding time entries. If you want to use the current logged in user, leave this field blank.">
+						Default Person: <input type="text" name="txtDefaultPerson" id="txtDefaultPerson" value="" style="width:214px" class="BceOption">
+					</div>
+					<div class="extension_preferences" title="Everything before this prefix string will be auto stripped from the description text.">
+						Description Prefix String: <input type="text" name="txtDescriptionPrefix" id="txtDescriptionPrefix" value="" style="width:163px" class="BceOption">
+					</div>
+					<div class="extension_preferences" title="When checked, the extension will try to auto parse and calculate the time string from the pasted description text. Supported time format is: &#13;&#13; HH:MM   HH:MM   Description-Text">
+						<input type="checkbox" value="1" checked="true" id="chkParseTimeFromDesc" name="chkParseTimeFromDesc" style="vertical-align:middle" class="BceOption"> Yes, parse and calculate time from description text
+					</div>
+					<div class="extension_preferences" title="When checked, if you change the date manually on the To-Do or Time page when entring a new time log, then that date is auto set as the default date.">
+						<input type="checkbox" value="1" checked="true" id="chkSetLastDateAsDefault" name="chkSetLastDateAsDefault" style="vertical-align:middle" class="BceOption"> Set the last changed date as the default date
+					</div>
+				</div>
+				<div class="section_header">  
+					<img src="images/time-graph.png"> Time Report Graph
+				</div>
+				<div id="divTimeGraphOptions" class="section_content">
+				    <div class="extension_preferences" title="When checked, a 'Create a graph' link will be displayed on the time report page, allowing you to show generate a graph/chart of the current time report.">
+						<input type="checkbox" value="1" checked="true" id="chkShowCreateGraphLink" name="chkShowCreateGraphLink" style="vertical-align:middle" class="BceOption"> Yes, let me generate graph of time report.
+					</div>
+				</div>
+			</div>
+		</form>
+		<script type="text/javascript" src="js/options.js"></script>
+		<div id="footer">
+			©2010-2012 Syed Ghulam Akbar <!-- - <a href="#">Extension Options</a> -->
+		</div>
+	</div>
+  </body>
+</html>

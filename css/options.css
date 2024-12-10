@@ -1,0 +1,45 @@
+#container 
+{
+	padding:00px 15px 15px 15px;
+}
+#header img
+{
+	float:left;
+	padding-right: 10px;
+}
+#header h2
+{
+	margin-bottom:0px;
+}
+#main_content
+{
+	clear:both;
+	padding-left:5px;
+}
+#how_it_works
+{
+	padding:10px 0px 5px 0px
+}
+#steps
+{
+	padding:10px 0px 10px 0px;
+}
+#steps .step
+{
+	background-color:#EBEFF9;
+	webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	float:left;
+	width:300px;
+	padding:15px;
+	margin-right:20px;
+}
+.step_action
+{
+	padding:5px 0px 10px 0px;
+}
+#footer
+{
+	padding-top:15px;
+	clear:both;
+}

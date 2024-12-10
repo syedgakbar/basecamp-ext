@@ -1,0 +1,29 @@
+﻿<link type="text/css" href="style.css" rel="stylesheet" />
+
+<div class="preferenceMainDiv">
+	<h1 class="preferenceHeading"><a href="#">Transliteration</a> | <a href="#">Translation</a> | <a href="#">About</a></h1>
+	<h2 class="preferenceSubHeading">Transliteration!</h2>
+	Google Indic Transliteration offers an option for converting Roman characters to the Urdu characters. This lets you type Urdu words phonetically in English script and still have them appear in their correct alphabet.
+	<br /><br />
+	<h2 class="preferenceSubHeading">How it works!</h2>
+	Ctrl+Click on any input box in the page where you want to type Urdu, then type a word and hit space to get it in Urdu.  Click on a word to see more options. <a target="_blank" href="http://www.google.com/transliterate/indic/about_ur.html">More >></a>
+	<br /><br />
+	<h2 class="preferenceSubHeading">Preferences!</h2>
+	Preferred Font: 
+	<select id="sltPreferredFont" onchange="LanguageTools.Transliteration.FontFamily=this.value">
+		<option value="Urdu Naskh Asiatype" selected="selected">Jameel Noori Nastaleeq</option>
+		<option value="Urdu Naskh Asiatype">Nafees Nastaleeq</option>
+		<option value="Urdu Naskh Asiatype">Nafees Web Naskh</option>
+		<option value="Urdu Naskh Asiatype">Urdu Naskh Asiatype</option>        
+	</select>
+	<br /><br />
+	<div id="poweredByGoogle" style="text-align:right;vertical-align:middle;"></div>
+	<script src="http://www.google.com/jsapi?key=internal" type="text/javascript"></script>
+	<script language="javascript" type="text/javascript">
+		google.load('language', "1");
+		google.setOnLoadCallback(initialize);
+		function initialize() {
+		  google.language.getBranding('poweredByGoogle');
+		}
+	</script>
+</div>

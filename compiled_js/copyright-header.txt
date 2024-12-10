@@ -1,0 +1,5 @@
+/*  Basecamp Extension, version 0.2.5
+ *  (c) 2010-2012 Syed Ghulam akbar <akbar@jintech.com>
+ *
+ *  This Basecamp Extension Library is freely distributable under the terms of an MIT-style license.
+ /*--------------------------------------------------------------------------*/

@@ -1,0 +1,1 @@
+var ChromeExtension={IsExtension:false,ExtensionId:"bkphfkjbnehgaiogmdfidipkahmjddbe",IsExtnesion:function(){return chrome&&chrome.extension},Initialize:function(){ChromeExtension.IsExtension=typeof chrome=="object"&&chrome.extension}};ChromeExtension.Initialize();

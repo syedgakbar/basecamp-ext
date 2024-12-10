@@ -1,0 +1,49 @@
+.preferenceMainDiv {
+	color:#000000;
+	font-family:Tahoma,Georgia,Arial,sans-serif;
+	background:#eaebed;
+	font-size:small;
+	margin:0;
+	text-align:left;
+}
+.preferenceHeading {
+	background-color:#CCCCCC;
+	background-image: none;
+	border-top:1px solid black;
+	font-size:110%;
+	font-weight:bold;
+	margin:0px 0px 8px 0px;
+	padding:1px 3px;
+	position:relative;
+}
+.preferenceHeading a 
+{
+	display:inline;	
+	background-image: none;
+	height:auto;
+	padding:0;
+	width:auto;
+}
+.langToolActiveTab
+{
+	text-decoration: none;
+	color:Black;
+}
+.preferenceSubHeading {
+	background-color:#DDDDDD;
+	border-top:1px solid #777777;
+	font-weight:bold;
+	font-size:100%;
+	margin:0px 0px 8px 0px;
+	padding:1px 3px;
+	position:relative;
+	font-family:
+}
+.be_date_next
+{
+	background-image: url(images/date_next.gif);
+}
+.be_date_prev
+{
+	background-image: url(images/date_prev.gif);
+}
